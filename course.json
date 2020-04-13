@@ -1,0 +1,41 @@
+{
+	"version": "1",
+	"title": "notebook choice",
+	"author": "Mr.Lee",
+	"description": "欢迎使用jupyter notebook",
+	"scenarios": [
+		{
+			"title": "题目测试",
+			"shell": "/bin/bash",
+			"environment": "registry.cn-hangzhou.aliyuncs.com/course_test/course_test",
+			"description": "这里将作为一个测试",
+			"steps": [
+				{
+					"title": "第一页",
+					"text": "scenario/ep1/1.md"
+				},
+				{
+					"title": "第二页",
+					"text": "scenario/ep1/2.md"
+				}
+			]
+		},
+		{
+			"title": "第二章",
+			"shell": "/bin/bas",
+			"environment": "registry.cn-hangzhou.aliyuncs/course_test/course_test",
+			"description": "这里是第二章",
+			"steps": [
+				{
+					"title": "第一页",
+					"text": "scenario/ep2/1.md"
+				},
+				{
+					"title": "第二页",
+					"text": "scenario/ep2/2.md",
+					"extraTab":"http://www.baidu.com"
+				}
+			]
+		}
+	]
+}
