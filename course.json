@@ -28,7 +28,8 @@
 			"steps": [
 				{
 					"title": "第一页",
-					"text": "scenario/ep2/1.md"
+					"text": "scenario/ep2/1.md",
+					"extraTab":"http://www.baidu.com"
 				},
 				{
 					"title": "第二页",
