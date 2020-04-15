@@ -12,11 +12,13 @@
 			"steps": [
 				{
 					"title": "第一页",
-					"text": "scenario/ep1/1.md"
+					"text": "scenario/ep1/1.md",
+					"extraTab":"http://docker.kfcoding.com:38888/tree"
 				},
 				{
 					"title": "第二页",
-					"text": "scenario/ep1/2.md"
+					"text": "scenario/ep1/2.md",
+					"extraTab":"http://docker.kfcoding.com:38888/tree"
 				}
 			]
 		},
@@ -29,12 +31,12 @@
 				{
 					"title": "第一页",
 					"text": "scenario/ep2/1.md",
-					"extraTab":"http://www.baidu.com"
+					"extraTab":"http://docker.kfcoding.com:38888/tree"
 				},
 				{
 					"title": "第二页",
 					"text": "scenario/ep2/2.md",
-					"extraTab":"http://www.baidu.com"
+					"extraTab":"http://docker.kfcoding.com:38888/tree"
 				}
 			]
 		}
