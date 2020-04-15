@@ -13,11 +13,13 @@
 				{
 					"title": "第一页",
 					"text": "scenario/ep1/1.md",
+					"program": "scripts/bg.sh",
 					"extraTab":"http://docker.kfcoding.com:38888/tree"
 				},
 				{
 					"title": "第二页",
 					"text": "scenario/ep1/2.md",
+					"program": "scripts/bg.sh",
 					"extraTab":"http://docker.kfcoding.com:38888/tree"
 				}
 			]
@@ -31,11 +33,13 @@
 				{
 					"title": "第一页",
 					"text": "scenario/ep2/1.md",
+					"program": "scripts/bg.sh",
 					"extraTab":"http://docker.kfcoding.com:38888/tree"
 				},
 				{
 					"title": "第二页",
 					"text": "scenario/ep2/2.md",
+					"program": "scripts/bg.sh",
 					"extraTab":"http://docker.kfcoding.com:38888/tree"
 				}
 			]
