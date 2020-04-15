@@ -14,13 +14,13 @@
 					"title": "第一页",
 					"text": "scenario/ep1/1.md",
 					"program": "scripts/bg.sh",
-					"extraTab":"http://docker.kfcoding.com:38888/tree"
+					"extraTab":"[domain]:[:8888]/notebooks/ep1_1.ipynb"
 				},
 				{
 					"title": "第二页",
 					"text": "scenario/ep1/2.md",
 					"program": "scripts/bg.sh",
-					"extraTab":"http://docker.kfcoding.com:38888/tree"
+					"extraTab":"[domain]:[:8888]/notebooks/ep1_2.ipynb"
 				}
 			]
 		},
@@ -34,13 +34,13 @@
 					"title": "第一页",
 					"text": "scenario/ep2/1.md",
 					"program": "scripts/bg.sh",
-					"extraTab":"http://docker.kfcoding.com:38888/tree"
+					"extraTab":"[domain]:[:8888]/notebooks/ep2_1.ipynb"
 				},
 				{
 					"title": "第二页",
 					"text": "scenario/ep2/2.md",
 					"program": "scripts/bg.sh",
-					"extraTab":"http://docker.kfcoding.com:38888/tree"
+					"extraTab":"[domain]:[:8888]/notebooks/ep2_2.ipynb"
 				}
 			]
 		}
