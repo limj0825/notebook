@@ -3,6 +3,7 @@
 	"title": "notebook choice",
 	"author": "Mr.Lee",
 	"description": "欢迎使用jupyter notebook",
+	"preload": "scripts/auth.js",
 	"scenarios": [
 		{
 			"title": "题目测试",
