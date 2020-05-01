@@ -8,7 +8,7 @@
 		{
 			"title": "题目测试",
 			"shell": "/bin/bash",
-			"environment": "registry.cn-shanghai.aliyuncs.com/limj0825/notebook:question",
+			"environment": "registry.cn-shanghai.aliyuncs.com/limj0825/notebook:v2",
 			"description": "这里将作为一个测试",
 			"steps": [
 				{
@@ -28,7 +28,7 @@
 		{
 			"title": "第二章",
 			"shell": "/bin/bash",
-			"environment": "registry.cn-shanghai.aliyuncs.com/limj0825/notebook:question",
+			"environment": "registry.cn-shanghai.aliyuncs.com/limj0825/notebook:v2",
 			"description": "这里是第二章",
 			"steps": [
 				{
