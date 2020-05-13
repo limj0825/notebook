@@ -1,49 +1,49 @@
 {
-	"version": "1",
-	"title": "notebook choice",
-	"author": "Mr.Lee",
-	"description": "欢迎使用jupyter notebook",
-	"preload": "scripts/auth.js",
-	"scenarios": [
-		{
-			"title": "题目测试",
-			"shell": "/bin/bash",
-			"environment": "registry.cn-shanghai.aliyuncs.com/limj0825/notebook:v2",
-			"description": "这里将作为一个测试",
-			"steps": [
-				{
-					"title": "第一页",
-					"text": "scenario/ep1/1.md",
-					"program": "scripts/bg.sh",
-					"extraTab":"[domain]:[:8888]/notebooks/ep1_1.ipynb"
-				},
-				{
-					"title": "第二页",
-					"text": "scenario/ep1/2.md",
-					"program": "scripts/bg.sh",
-					"extraTab":"[domain]:[:8888]/notebooks/ep1_2.ipynb"
-				}
-			]
-		},
-		{
-			"title": "第二章",
-			"shell": "/bin/bash",
-			"environment": "registry.cn-shanghai.aliyuncs.com/limj0825/notebook:v2",
-			"description": "这里是第二章",
-			"steps": [
-				{
-					"title": "第一页",
-					"text": "scenario/ep2/1.md",
-					"program": "scripts/bg.sh",
-					"extraTab":"[domain]:[:8888]/notebooks/ep2_1.ipynb"
-				},
-				{
-					"title": "第二页",
-					"text": "scenario/ep2/2.md",
-					"program": "scripts/bg.sh",
-					"extraTab":"[domain]:[:8888]/notebooks/ep2_2.ipynb"
-				}
-			]
-		}
-	]
+ "version": "1",
+ "title": "notebook choice",
+ "author": "Mr.Lee",
+ "description": "欢迎使用jupyter notebook",
+ "preload": "scripts/auth.js",
+ "scenarios": [
+  {
+   "title": "题目测试",
+   "shell": "/bin/bash",
+   "environment": "registry.cn-shanghai.aliyuncs.com/limj0825/notebook:latest",
+   "description": "这里将作为一个测试",
+   "steps": [
+    {
+     "title": "第一页",
+     "text": "scenario/ep1/1.md",
+     "program": "scripts/bg.sh",
+     "extraTab":"[domain]:[:8888]/notebooks/ep1_1.ipynb"
+    },
+    {
+     "title": "第二页",
+     "text": "scenario/ep1/2.md",
+     "program": "scripts/bg.sh",
+     "extraTab":"[domain]:[:8888]/notebooks/ep1_2.ipynb"
+    }
+   ]
+  },
+  {
+   "title": "第二章",
+   "shell": "/bin/bash",
+   "environment": "registry.cn-shanghai.aliyuncs.com/limj0825/notebook:latest",
+   "description": "这里是第二章",
+   "steps": [
+    {
+     "title": "第一页",
+     "text": "scenario/ep2/1.md",
+     "program": "scripts/bg.sh",
+     "extraTab":"[domain]:[:8888]/notebooks/ep2_1.ipynb"
+    },
+    {
+     "title": "第二页",
+     "text": "scenario/ep2/2.md",
+     "program": "scripts/bg.sh",
+     "extraTab":"[domain]:[:8888]/notebooks/ep2_2.ipynb"
+    }
+   ]
+  }
+ ]
 }
